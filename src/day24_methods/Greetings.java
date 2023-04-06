@@ -3,6 +3,15 @@ package day24_methods;
 import java.util.Scanner;
 
 public class Greetings {
+
+    public static void sayHello () {
+        System.out.println("Hello Dariush. Hope all is well");
+    }
+
+    public static void sayHelloToWhom (String name) {
+        System.out.println("Hello " + name + ". Hope all is well");
+    }
+
     public static void main(String[] args) {
         sayHello();
         sayHelloToWhom("Ilgar");
@@ -13,13 +22,7 @@ public class Greetings {
         sayHelloToWhom(userName);
     }
 
-    public static void sayHello () {
-        System.out.println("Hello Dariush. Hope all is well");
-    }
-
-    public static void sayHelloToWhom (String name) {
-        System.out.println("Hello " + name + ". Hope all is well");
-    }
+   
 
 
 

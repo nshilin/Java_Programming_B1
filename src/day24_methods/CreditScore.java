@@ -31,9 +31,7 @@ public class CreditScore {
         }
     }
 
-
-
-
+    
     public static void main(String[] args) {
 //        System.out.println(getCreditScore());
         int score = getCreditScore();
