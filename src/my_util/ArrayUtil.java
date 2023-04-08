@@ -68,7 +68,7 @@ public class ArrayUtil {
     /**
      *
      * This method accepts int array and the int num
-     * And returns the a new array with the num added at the end
+     * And returns a new array with the num added at the end
      */
     public static int [] add(int [] arr, int num) {
         int [] newArr = Arrays.copyOf(arr, arr.length+1);
@@ -86,6 +86,38 @@ public class ArrayUtil {
 
         String [] newArr = Arrays.copyOf(arr, arr.length+1);
         newArr[newArr.length-1] = word;
+
+        return newArr;
+    }
+
+    /**
+     *
+     * This method accepts int num and the int array
+     * And returns the new array with the num added at the beginning
+     */
+    public static int [] addElemBeginning (int num, int ... arr){
+        int [] newArr = new int [arr.length + 1];
+
+        for (int i = 1; i < newArr.length; i++) {
+            newArr[i] = arr[i-1];
+        }
+        newArr[0] = num;
+
+        return newArr;
+    }
+
+    /**
+     *
+     * This method accepts String word and the String array
+     * And returns the new array with the word added at the beginning
+     */
+    public static String [] addElemBeginning (String word, String ... arr){
+        String [] newArr = new String [arr.length + 1];
+
+        for (int i = 1; i < newArr.length; i++) {
+            newArr[i] = arr[i-1];
+        }
+        newArr[0] = word;
 
         return newArr;
     }
