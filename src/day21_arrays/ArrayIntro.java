@@ -50,9 +50,5 @@ public class ArrayIntro {
         System.out.println(Arrays.toString(cities).length()); // number of characters
 
 
-
-
-
-
     }
 }

@@ -45,11 +45,5 @@ public class ArrayIntro2 {
 
         arr = new double[8]; //this is a new object - a new array with a size of 8 elements
         System.out.println(Arrays.toString(arr));
-
-
-
-
-
-
     }
 }
