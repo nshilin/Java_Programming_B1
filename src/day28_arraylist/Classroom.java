@@ -26,6 +26,5 @@ public class Classroom {
         for (int i = 0; i < group.size(); i++) {
             System.out.println("Cartoon character number " + (i+1) + group.get(i));
         }
-
     }
 }
