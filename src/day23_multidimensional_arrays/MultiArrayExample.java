@@ -8,6 +8,7 @@ public class MultiArrayExample {
         int [] m = {10, 33, 55, 77};  // 1D array
 
         int [][] all = {n, m};
+
         /*
             n --- > 1D array -- index is 0
             m --- > 1D array  -- index is 1
