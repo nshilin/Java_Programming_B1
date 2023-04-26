@@ -11,7 +11,6 @@ public class Road {
         TrafficLight light2 = new TrafficLight("grey");
         System.out.println(light2.getColor()); //
 
-
         TrafficLight light3 = new TrafficLight("Green");
         System.out.println(light3.getColor()); //
 
