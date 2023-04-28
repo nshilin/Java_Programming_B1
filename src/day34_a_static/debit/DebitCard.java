@@ -18,8 +18,6 @@ public class DebitCard {
         accountType = "Checking";
     }
 
-
-
     //create a constructor that accepts three arg: cardNumb, holdName, balance
     public DebitCard (long cardNumber, String holderName, String cardType) {
 
@@ -30,8 +28,9 @@ public class DebitCard {
         } else {
             System.out.println("Invalid card type");
         }
+
         //this.cardNumber = cardNumber;  // it will be 16 numbers
-        if ((cardNumber+"").length() == 16) {   // if(String.valueOf(curdNumber).length() == 16)
+        if ((cardNumber+"").length() == 16) {   // if(String.valueOf(cardNumber).length() == 16)
             this.cardNumber = cardNumber;
         } else {
             System.out.println("The length is not not correct");
