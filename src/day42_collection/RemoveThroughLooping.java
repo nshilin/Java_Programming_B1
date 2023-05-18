@@ -29,6 +29,5 @@ public class RemoveThroughLooping {
             }
         }
         System.out.println(list);
-
     }
 }
