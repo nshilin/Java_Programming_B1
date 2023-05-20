@@ -35,12 +35,10 @@ public class DataBaseExample {
 
         // Can I store all this map of people into List, or Set ?
 
-
         Map<String, String> stringStringMap = makeMap("Nazakat", "Hanifayeva", "1");
         Map<String, String> stringStringMap2 = makeMap("Vlad", "Ilin", "2");
         Map<String, String> stringStringMap3 = makeMap("Gunel", "Baghishova", "4");
         Map<String, String> stringStringMap4 = makeMap("Nurdan ", "Erdogan", "6");
-
 
         List<Map<String, String>> list = new ArrayList<>();
         list.add(stringStringMap);
